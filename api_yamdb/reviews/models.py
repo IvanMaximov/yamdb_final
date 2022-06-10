@@ -6,7 +6,6 @@ from django.db import models
 
 from .validators import year_validator
 
-
 ADMIN = 'admin'
 MODERATOR = 'moderator'
 USER = 'user'
