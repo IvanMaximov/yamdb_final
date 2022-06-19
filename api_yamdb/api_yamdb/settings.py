@@ -137,4 +137,4 @@ SIMPLE_JWT = {
 
 ADMIN_EMAIL = 'awesome@guy.com'
 
-a = 5
+a = 3
