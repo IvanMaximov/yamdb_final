@@ -73,6 +73,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
+            cd home/api_yamdb/
             sudo docker-compose stop
             sudo docker-compose rm web
             touch .env
